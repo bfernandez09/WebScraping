@@ -10,4 +10,6 @@ function openWebPage() {
   });
 }
 
-openWebPage();
+module.exports = {
+  openWebPage
+};

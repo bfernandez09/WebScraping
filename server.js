@@ -1,8 +1,10 @@
 const express = require('express');
+const { openWebPage } = require('./index.js');
 
 const app = express();
 
 app.get('/', (req, res) => {
+    openWebPage();
     res.send('Hello World!');
     }
 );
